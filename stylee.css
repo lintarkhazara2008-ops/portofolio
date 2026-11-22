@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  box-shadow:5 5 50px #5024ec, 5 5 50px #00ffcc, 5 5 50px #0259db;
+  background-image:url(gambar.jpeg);
+  background-size:cover;
+  background-position:center;
+  background-attachment: fized;
+  background-repeat:no-repeat;
+}
+
+.h1 {
+  text-align:center;
+  color:white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  color:#f9fafc;
+}
+
+.logo {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.container {
+  max-width:800px;
+  margin:0 auto;
+}
+
+.kiri {
+  flex: 2;
+}
+
+.foto {
+  max-width:1000px;
+  margin: 0 auto 20px;
+  background-color:white;
+  padding:20px;
+  border-radius:12px;
+  box-shadow: 0 2PX 8PX rgba(0, 0, 0, 0.1);
+  text-align:center;
+  box-sizing:border-box;
+}
+
+.galeri {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:conter;
+  gap:10px;
+}
+
+.galeri img {
+  width:140px;
+  height: 140px;
+  object-fit:cover;
+  border-radius:12px;
+}
+
+.me, .skil, .hoby, .foto, .kontak {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(2, 27, 248, 0.918);
+  text-align:center;
+  background-image: url(L.png)
+
+}
+
+.me h2, .skil h2, .hoby h2, .kontak h2 {
+  color:black;
+}
+
+.foto h2 {
+  color:black;
+}
+
+ul {
+  justify-content:center;
+}
+
+.kontak a {
+  color:#333;
+}
+
+.me:hover, .skil:hover, .hoby:hover, .kontak:hover {
+  box-shadow: 0 0 25px rgba(244, 245, 247, 0.9);
+  transition: box-shadow 0.3s;
+}
+
+.kontak {
+  max-width:1000px;
+  margin:20px auto;
+  text-align:center;
+  box-sizing:border-box;
+}
+
+h2 {
+  color: #2a5298;
+  border-bottom: 2px solid #2a5298;
+  padding-bottom: 8px;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+li {
+  background-color: #e8eefc;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+a {
+  color: #2a5298;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+}
